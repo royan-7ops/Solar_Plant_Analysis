@@ -1,14 +1,44 @@
- Solar Plant Analysis
+🌞 Solar Energy Prediction (Edunet Internship Project)
 
- Project: Energy Recommendation System using solar plant data
+📘 Overview
+This project predicts solar power generation using real data from Indian Solar Power Plants.
+It was developed as part of the Edunet Foundation Internship under the domain Energy Prediction.
 
- Description:
- This project focuses on analyzing solar plant data to understand energy generation patterns. The   dataset has been cleaned and preprocessed to prepare for further analysis and future predictions.
+🗓️ Weekly Progress
 
- Contents: 
-- `Plant_1_Generation_Data.csv` → Raw dataset  
-- `Week1_Data_Loading.ipynb` → Notebook showing data loading and preprocessing steps
+Week 1 – Data Loading & Understanding
 
- Objective:
- Prepare the dataset for analysis and prediction of energy generation, serving as the foundation    for the Energy Recommendation System.
+Uploaded and extracted dataset files
 
+Loaded CSV into Google Colab
+
+Explored dataset shape, columns, and sample data
+
+Week 2 – Model Training & Prediction
+
+Preprocessed data (converted DATE_TIME, extracted hour)
+
+Split data into train/test sets
+
+Trained Linear Regression and Random Forest models
+
+Evaluated performance using R² Score and MAE
+
+Random Forest achieved R² = 1.0 and MAE = 0.145 🎯
+
+⚙️ Tools & Libraries
+Google Colab
+Python 3
+Pandas
+Scikit-learn
+Matplotlib
+
+📊 Results
+
+Model	R² Score	MAE	Remarks
+Linear Regression	1.00	0.715	Baseline model
+Random Forest	1.00	0.145	Excellent performance
+
+👨‍💻 Author
+Roy
+Engineering Student | Energy Prediction Domain | Edunet Foundation Internship
